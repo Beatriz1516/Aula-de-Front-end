@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(90, 36, 139);
+}
+h1{
+    color: rgb(221, 181, 240);
+    text-align: center;
+}
+button{
+    width: 210px; height: 30px;
+    text-align: left;
+    top:0%;
+    left: 0%;
+    transform: translate(250%,-185%);
+}
+div{
+    background-color: gray;
+    border: solid 0.4px;
+    width: 80px;
+    space
+}
