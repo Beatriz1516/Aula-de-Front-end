@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(104, 27, 177);
+}
+h1{
+    color: rgb(233, 172, 235);
+    top: 0%;
+    left: 0%;
+   transform: translate(43%, 25%);
+}
+#centralizar{
+    width: 250px; height: 35px;
+    top: 0%;
+    left: 0%;
+   transform: translate(365%, -150%);
+   text-align: left;
+}
+button{
+    color:rgb(68, 17, 116) ;
+    background-color: rgb(219, 188, 248);
+    width: 320px; height: 40px;
+    top:0%;
+    left:0%;
+    transform: translate(-5%,-35%);
+}
+footer{
+    background-color:rgb(104, 27, 177);
+color: rgb(241, 207, 255);
+    text-align: center;
+}
+#color{
+    color: rgb(28, 2, 54);
+}
