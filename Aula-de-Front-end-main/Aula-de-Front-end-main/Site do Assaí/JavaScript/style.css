@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(104, 27, 177);
+    display:flex;
+    justify-content: space-between;
+}
+#centralizar{
+    width: 100px; height: 35px;
+    top: 0%;
+    left: 0%;
+   transform: translate(-70%, 100%);
+   text-align: left;
+}
+button{
+    color:rgb(68, 17, 116) ;
+    background-color: rgb(219, 188, 248);
+    width: 73px;
+    height: 40px;
+    top:0%;
+    left:0%;
+    transform: translate(-25%,-35%);
+    justify-content: space-between;
+    padding:0%;
+    
+}
+footer{
+    background-color:rgb(104, 27, 177);
+color: rgb(241, 207, 255);
+    text-align: center;
+}
+.color{
+    color: rgb(28, 2, 54);
+}
+.apresentacao{
+    color:rgb(86, 83, 88) ;
+}
+.fotos{
+    width: 100px;
+    height: 100px;
+    border-radius: solid 1px;
+}
+.descricao{
+    display: flex;
+}
