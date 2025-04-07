@@ -1,0 +1,55 @@
+.cabecalho{
+    display: flex;
+    background-color: #5e0071;
+    align-items: center;
+    padding: 0%;
+}
+
+.logo{
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+}
+
+.menu{
+    display: flex;
+    width: 5vh;
+    height: 5vh;
+    top: 0vh;
+    left:0vh;
+    transform:translate(26vh,0vh);
+}
+
+.home{
+    display: flex;
+    width: 4vh;
+    height: 4vh;
+    top: 0vh;
+    left:0vh;
+    transform:translate(2vh,0vh);
+}
+
+.compras{
+    display: flex;
+    width: 4vh;
+    height: 4vh;
+    top: 0vh;
+    left:0vh;
+    transform:translate(16vh,-0.2vh);
+}
+
+.botao{
+    width: 15vh;
+    height: 4vh;
+    border-radius: 15vh;
+    align-items: center;
+    top: 0vh;
+    left:0vh;
+    transform:translate(-4vh,0vh);
+}
+
+.rodape{
+    background-color: #5e0071;
+    color:#fff;
+    text-align: center;
+}
