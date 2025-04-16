@@ -1,0 +1,30 @@
+@import url("css/footer.css");
+@import url("css/header.css");
+@import url("css/produtos.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.imagens{
+    width: 14vh;
+    height: 14vh;
+    top: 0%;
+    left: 0%;
+    transform: translate(10%, 0%);
+    border: solid black 0.3vh;
+}
+
+.propaganda{
+    width: 49vh;
+    height: 17vh;
+}
+
+.titulo{
+    color: #ED9F0F;
+}
