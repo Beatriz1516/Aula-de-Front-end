@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.imagens{
+    width: 14vh;
+    height: 14vh;
+}
