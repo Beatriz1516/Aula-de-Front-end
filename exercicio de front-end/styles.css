@@ -1,0 +1,23 @@
+*{
+    margin: 0vh;
+}
+
+.montanha{
+    display: flex;   
+    padding: 5vh 0vh 0vh 5vh;
+}
+
+.inicial{
+    display: flex;
+    padding: 5vh 0vh 0vh 5vh;
+    font-size: 3vh;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+}
+
+.mudar-tema{
+    display: flex;
+    margin: 0vh 0vh 0vh 14vh;
+    background-color: black;
+    color: thistle;
+}
