@@ -1,0 +1,80 @@
+@import url("css/footer.css");
+@import url("css/header.css");
+@import url("css/produtos.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.home{
+    width: 4vh;
+    height: 4vh;
+}
+
+.propaganda{
+    width: 49vh;
+    height: 17vh;
+}
+
+.titulo{
+    color: #ED9F0F;
+    text-decoration-line: underline;
+    top:0%;
+    left:0%;
+    transform: translate(5%,4%);
+
+}
+
+.square{
+    background-color: #F0C0E6;
+    border: solid 2px rgb(184, 116, 201);
+    border-radius: 20px;
+    padding: 3vh;
+    top:0%;
+    left:0%;
+    transform: translate(0%,-9%);
+    color: #5e0071;
+    margin: 2vh;
+    margin-top: 10vh;
+    font-size: x-large;
+}
+
+.square2{
+    background-color: #F0C0E6;
+    border: solid 2px rgb(184, 116, 201);
+    border-radius: 20px;
+    padding: 5vh;
+    top:0%;
+    left:0%;
+    transform: translate(0%,10%);
+    color: #5e0071;
+    margin: 2vh;
+    margin-bottom: 10vh;
+    font-size: large;
+}
+
+.volte{
+    top:0vh;
+    left:0vh;
+    transform: translate(40vh,1vh);
+    color: #5e0071;
+}
+
+.titulo_pedido{
+    color: #ED9F0F;
+    text-align: center;
+    padding: 5vh 0vh 0vh 0vh;
+    font-size: 7vh;
+}
+
+.botao-compra{
+    background-color: #B37ECC;
+    border: solid #5e0071 0.05vh;
+    font-size: xx-large;
+    
+}
