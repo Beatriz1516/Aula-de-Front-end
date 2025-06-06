@@ -1,0 +1,8 @@
+.imagens-star{
+    border:solid 2vh #EA8007;
+    border-radius: 5vh;
+    width: 10vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}

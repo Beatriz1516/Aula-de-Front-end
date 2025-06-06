@@ -1,0 +1,16 @@
+.cabeçalho{
+    background: linear-gradient(rgba(114, 167, 34, 0.808), rgba(114, 167, 34, 0.5));
+    background-size: cover ;/*cobrir a área do cabeçalho*/
+    background-position: center;/*centraliar imagem*/
+    width: 100%;
+    height: 300px;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
