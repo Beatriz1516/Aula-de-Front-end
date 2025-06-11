@@ -1,0 +1,112 @@
+/* ---------------------- */
+/*   SEÇÃO DO HEADER      */
+/* ---------------------- */
+.header {
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    color: var(--text-light);
+    display: flex;
+    flex-direction: column;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.nav-bar {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(44, 62, 80, 0.85);
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 120px; /* Aumentado de 100px para 120px */
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.09);
+}
+
+.header-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin-top: -3rem;
+}
+
+.titulo {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem; /* Reduzido para aproximar do subtítulo */
+    text-shadow: 2px 2px 8px rgba(221, 212, 212, 0.6);
+}
+
+.sub-titulo {
+    font-size: 1.5rem;
+    max-width: 800px;
+    opacity: 0.9;
+    line-height: 1.4;
+    margin-top: 0; /* Removido margem superior padrão */
+}
+
+.navmenu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--secondary-color);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-light);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}

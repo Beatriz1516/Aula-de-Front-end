@@ -1,0 +1,198 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(to right, #301D08, #EA8007);
+  color: white;
+  padding: 2vh 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sub-titulo {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.navmenu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  border-radius: 3px;
+}
+
+/* Conteúdo principal */
+.conteudo {
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+.texto {
+  font-size: 1.1rem;
+  margin-bottom: 2vh;
+  color: #444;
+  text-align: center;
+}
+
+.tema {
+  font-size: 1.5rem;
+  margin: 2vh 0;
+  color: #301D08;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  border: 2px solid #EA8007;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #EA8007;
+}
+
+/* Botão */
+.saiba-mais-btn {
+  background-color: #EA8007;
+  border: 2px solid #301D08;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saiba-mais-btn:hover {
+  background-color: #cc6c05;
+}
+
+.saiba-mais-btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #301D08;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+/* Turma */
+.turma {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .navmenu {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    background-color: #301D08;
+    margin-top: 1rem;
+  }
+
+  .navmenu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-content {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .card-img {
+    max-width: 100%;
+  }
+}
+
