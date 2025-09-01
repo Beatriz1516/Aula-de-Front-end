@@ -1,0 +1,17 @@
+.container{
+    background-color:#8fbc8f;
+    padding: 150px 15px;
+    text-align: center;
+    color: #0c4901;
+    text-shadow: 0px 3px 0px #0c490143 ;
+    font-size: xx-large;
+}
+.calcularB{
+    background-color: #c7ffc7;
+    color: #0c4901;
+    font-size: xx-large;
+    border: solid #0c4901;
+}
+.digitar{
+    font-size: xx-large;
+}
