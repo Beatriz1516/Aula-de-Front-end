@@ -4,15 +4,15 @@ function calcularTabuada() {
 
     if (numero === "") {
         resultadoDiv.innerHTML = "<p style='color:red'> Digite um número válido!</p>";
-    } 
-    else{
-        let resultadoHTML = "<h3> Tabuada do " + numero + "</h3>";
+    } else {
+        let resultadoHTML = "<h3> Tabuada do " + numero + ":</h3>";
         let i = 1;
 
-        while (i <=10){
-            resultadoHTML += "<p>" + numero + "x" + i + "=" + (numero * i) + "</p>";
-            i++
+        while (i <= 10){
+            resultadoHTML += "<p>" + numero + " x " + i + " = " + (numero * i) + "</p>";
+            i++;
         }
+
+        resultadoDiv.innerHTML = resultadoHTML;
     }
-    resultadoDiv.innerHTML = resultadoHTML;
-}
+};
