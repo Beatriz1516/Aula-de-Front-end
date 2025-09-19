@@ -38,4 +38,9 @@ inputItem.addEventListener('keydown', (event) =>{
 });
 
 
+document.body.style.backgroundColor = '#4287f5';
+document.body.style.color = 'white';
+document.body.style.textAlign = 'center';
+document.body.style.alignItems = 'center';
+
 
