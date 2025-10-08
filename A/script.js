@@ -8,7 +8,7 @@ container.style.backgroundColor = '';
 container.style.border = '2px solid #f5feff';
 container.style.borderRadius ='10px';
 container.style.padding = '20px';
-container.style.maxWidth ='400px';
+container.style.maxWidth ='450px';
 container.style.margin = '20px auto';
 container.style.boxShadow = '0 4px 8px #91bdbdd';
 
@@ -30,6 +30,8 @@ container.appendChild(inputItem);
 // botao
 const btnAdd = document.createElement('button');
 btnAdd.textContent = 'Adicionar';
+btnAdd.style.borderRadius = '15px';
+btnAdd.style.margin ='4px';
 container.appendChild(btnAdd);
 
 // criar lista

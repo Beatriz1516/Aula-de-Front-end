@@ -4,6 +4,7 @@ btnSalvar.style.display ='block';
 btnSalvar.style.margin ='20px auto';
 btnSalvar.style.padding ='6px 12px';
 btnSalvar.style.cursor = 'poiter';
+btnSalvar.style.borderRadius = '15px';
 container.appendChild(btnSalvar);
 
 function salvarLista() {
