@@ -5,6 +5,9 @@ btnCarregar.style.margin ='20px auto';
 btnCarregar.style.padding ='6px 12px';
 btnCarregar.style.cursor = 'poiter';
 btnCarregar.style.borderRadius = '15px';
+btnCarregar.style.color = 'darkblue';
+btnCarregar.style.fontWeight = 'bold';
+btnCarregar.style.fontWeight = 'bold';
 container.appendChild(btnCarregar);
 
 //oculto
