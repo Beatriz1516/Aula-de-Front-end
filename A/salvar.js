@@ -5,6 +5,8 @@ btnSalvar.style.margin ='20px auto';
 btnSalvar.style.padding ='6px 12px';
 btnSalvar.style.cursor = 'poiter';
 btnSalvar.style.borderRadius = '15px';
+btnSalvar.style.color = 'darkblue';
+btnSalvar.style.fontWeight = 'bold';
 container.appendChild(btnSalvar);
 
 function salvarLista() {
@@ -31,6 +33,8 @@ function salvarLista() {
 
     //libera o objeto URL
     URL.revokeObjectURL(url);
+
+    lista.innerHTML = '';
 }
 
 btnSalvar.addEventListener('click', salvarLista);

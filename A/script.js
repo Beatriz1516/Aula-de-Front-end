@@ -12,11 +12,15 @@ container.style.maxWidth ='450px';
 container.style.margin = '20px auto';
 container.style.boxShadow = '0 4px 8px #91bdbdd';
 
+
 // titulo 
 const titulo = document.createElement('h1');
 titulo.textContent = 'Lista de Compras';
 titulo.style.textAlign = 'center';
-titulo.style.color ='white'
+titulo.style.color ='white';
+titulo.style.textShadow = '2px 2px 4px #000000';    
+titulo.style.fontFamily = 'Arial, sans-serif';
+titulo.style.fontWeight = 'bold';
 container.appendChild(titulo);
 
 // input de item
@@ -24,14 +28,19 @@ const inputItem = document.createElement('input');
 inputItem.type = 'text';
 inputItem.placeholder = ' Digite um item';
 inputItem.style.textAlign = 'center';
-inputItem.style.width = '80%';
+inputItem.style.width = '70%';
+inputItem.style.borderRadius = '15px';
+inputItem.style.padding = '8px';
 container.appendChild(inputItem);
 
 // botao
 const btnAdd = document.createElement('button');
 btnAdd.textContent = 'Adicionar';
 btnAdd.style.borderRadius = '15px';
-btnAdd.style.margin ='4px';
+btnAdd.style.margin ='1.5px';
+btnAdd.style.padding ='6px 12px';
+btnAdd.style.color = 'darkblue';
+btnAdd.style.fontWeight = 'bold';
 container.appendChild(btnAdd);
 
 // criar lista
