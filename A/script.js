@@ -54,9 +54,21 @@ function adicionarItem() {
     if (valor !== '') {
         const li = document.createElement('li');
         li.textContent= valor;
+        li.style.display = 'flex';
+        li.style.justifyContent = 'space-between';
+        li.style.alignItems = 'center';
+        li.style.padding = '6px 0';
+        li.style.borderBlock = 'solid 1px #2a2a2aff';
+        li.style.fontFamily = 'Arial, sans-serif';
+        li.style.fontSize = '16px';
         lista.appendChild(li);
         inputItem.value = '';
         inputItem.focus(); // volta o foco para o campo
+
+        const span = document.createElement('span');
+
+        const btnExcluir = document.createElement('span');
+        BigInt
     }
 };
 
