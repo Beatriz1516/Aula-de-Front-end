@@ -75,10 +75,11 @@ function adicionarItemComLixeira(texto) {
         li.appendChild(spanTexto);
         
         const btnExcluir = document.createElement('span');
-        btnExcluir.textContent = '❌';
+        btnExcluir.textContent = '✖️';
         btnExcluir.style.position = 'absolute';
+        
         btnExcluir.style.right = '0';
-        btnExcluir.style.top = '50%';
+        btnExcluir.style.top = '10%';
         li.appendChild(btnExcluir);
     }
 };
