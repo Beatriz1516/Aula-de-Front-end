@@ -1,0 +1,9 @@
+.acao{
+    padding: 40px 200px;
+    margin:150px 660px 0;
+    font-size:x-large;
+    border: solid 3px black;
+    border-radius: 15px;
+    min-width: 600px;
+    background-color: white;
+}
