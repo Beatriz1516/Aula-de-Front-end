@@ -1,0 +1,17 @@
+.logo{
+    display: flex;
+    width: 300px;
+    margin: 100px 800px;
+}
+.informações{
+    padding: 20px 200px;
+    margin: 20px 660px;
+    text-align: center;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+.texto-inf{
+    margin: 0 660px;
+    
+}
