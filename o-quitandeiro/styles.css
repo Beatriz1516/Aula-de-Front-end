@@ -1,4 +1,11 @@
 @import url(estilos_páginas/escolha_ação.css);
+@import url(estilos_páginas/administração.css);
+@import url(estilos_páginas/entrega.css);
+@import url(estilos_páginas/estoque.css);
+
+body{
+    margin: 0%;
+}
 
 .logo{
     display: flex;
