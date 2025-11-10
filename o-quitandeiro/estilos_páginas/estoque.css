@@ -1,0 +1,22 @@
+header{
+    background-color: #005ECA;
+    padding: 5px;
+}
+.titulo{
+    text-align: center;
+    padding: 5px;
+    color:white;
+    font-family: sans-serif;
+}
+.pesquisa{
+    text-align: center;
+    margin:  50px 670px;
+    padding: 20px 200px;
+    border: solid 1px black;
+    border-radius: 50px;
+}
+.adicionar{
+    background-color: #4882FF;
+    margin: 50px 500px;
+    border-radius: ;
+}
