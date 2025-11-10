@@ -18,5 +18,19 @@ header{
 .adicionar{
     background-color: #4882FF;
     margin: 50px 500px;
-    border-radius: ;
+    border-radius: 15px;
+}
+.imgAdicionar{
+    margin-top: -135px;
+    display: flex;
+}
+.adicionarProduto{
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.categoria{
+    margin:150px 250px;
+    font-family: sans-serif;
 }
